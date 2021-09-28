@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Add User</title>
+</head>
+
+<body>
+<form action="#" th:action="@{/moradores/add}" th:object="${morador}" method="post"> <!--${morador} == Morador morador = new Morador()-->
+
+    <label for="nome" class="col-form-label">Nome</label>
+    <input type="text" th:field="*{nome}" id="nome"  placeholder="Name"><br />
+    <label for="email" class="col-form-label">Email</label>
+    <input type="text" th:field="*{email}" id="email" placeholder="Email"><br />
+    <label for="idade" class="col-form-label">Idade</label>
+    <input type="text" th:field="*{idade}" class="form-control" id="idade" placeholder="Idade"><br />
+    <input type="submit" value="Adidionar">
+</form>
+</body>
+
+</html>
