@@ -1,4 +1,4 @@
-package br.com.unipac.morador.moradorapi;
+package br.com.unipac.protocolo.protocoloapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

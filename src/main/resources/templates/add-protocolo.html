@@ -8,14 +8,14 @@
 </head>
 
 <body>
-<form action="#" th:action="@{/moradores/add}" th:object="${morador}" method="post"> <!--${morador} == Morador morador = new Morador()-->
+<form action="#" th:action="@{/protocolos/add}" th:object="${protocolo}" method="post"> <!--${protocolo} == Morador protocolo = new Morador()-->
 
     <label for="nome" class="col-form-label">Nome</label>
     <input type="text" th:field="*{nome}" id="nome"  placeholder="Name"><br />
     <label for="email" class="col-form-label">Email</label>
     <input type="text" th:field="*{email}" id="email" placeholder="Email"><br />
-    <label for="idade" class="col-form-label">Idade</label>
-    <input type="text" th:field="*{idade}" class="form-control" id="idade" placeholder="Idade"><br />
+    <label for="documentId" class="col-form-label">Idade</label>
+    <input type="text" th:field="*{documentId}" class="form-control" id="documentId" placeholder="documentId"><br />
     <input type="submit" value="Adidionar">
 </form>
 </body>

@@ -1,0 +1,8 @@
+https://www.dariawan.com/tutorials/spring/spring-boot-jpa-hibernate-postgresql-restful-crud-api-example/
+https://www.javaguides.net/2019/04/spring-boot-thymeleaf-crud-example-tutorial.html
+https://medium.com/@srikanthnakka/spring-boot-thymeleaf-crud-example-tutorial-page-1-of-2-29d7d6953ace
+https://medium.com/@srikanthnakka/spring-boot-thymeleaf-crud-example-tutorial-page-2-of-2-4810cf7bd2ba
+
+https://medium.com/@srikanthnakka/spring-boot-thymeleaf-crud-example-tutorial-page-1-of-2-29d7d6953ace
+----
+https://www.dariawan.com/tutorials/spring/spring-boot-thymeleaf-crud-example/

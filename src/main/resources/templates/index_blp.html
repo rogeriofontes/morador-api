@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
+
+<body>
+<div>
+    <a href="http://localhost:8080/protocolos/adicionar" target="_top">Add Protocolo</a><br />
+    <table>
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>documentId</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="protocolo : ${listaDeProtocolos}">
+            <td th:text="${protocolo.nome}"></td>
+            <td th:text="${protocolo.email}"></td>
+            <td th:text="${protocolo.documentId}"></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+
+</html>

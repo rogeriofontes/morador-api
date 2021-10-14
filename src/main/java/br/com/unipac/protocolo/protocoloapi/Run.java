@@ -1,13 +1,13 @@
-package br.com.unipac.morador.moradorapi;
+package br.com.unipac.protocolo.protocoloapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MoradorApiApplication {
+public class Run {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MoradorApiApplication.class, args);
+		SpringApplication.run(Run.class, args);
 	}
 
 }
